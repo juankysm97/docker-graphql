@@ -32,6 +32,6 @@ jobs:
 
     - name: Push Docker image
       run: |
-        docker push -t janazcopazos/docker-graphql:0.0.2 .
+        docker push janazcopazos/docker-graphql:0.0.2 .
 
         
